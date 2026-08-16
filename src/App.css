@@ -56,6 +56,31 @@
   }
 }
 
+.nav-squares {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  pointer-events: none;
+}
+
+.nav-square {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 24px;   /* increase this for rounder corners */
+  background: rgba(255, 255, 255, 0.05);
+  transition: background 0.2s ease;
+  pointer-events: auto;
+}
+
 #center {
   display: flex;
   flex-direction: column;
@@ -161,6 +186,10 @@
   }
 }
 
+h1 {
+  margin-top: 0;
+}
+
 .ticks {
   position: relative;
   width: 100%;
@@ -181,4 +210,6 @@
     right: 0;
     border-right-color: var(--border);
   }
+
+  
 }

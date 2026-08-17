@@ -22,8 +22,6 @@ function Home() {
       <p>Click around to learn more about me.</p>
       <div className="nav-squares">
         <div className="nav-square" onClick={(e) => handleNavClick('/about', e)}>About</div>
-        <div className="nav-square" onClick={(e) => handleNavClick('/projects', e)}>Projects</div>
-        <div className="nav-square" onClick={(e) => handleNavClick('/contact', e)}>Contact</div>
       </div>
     </div>
   );

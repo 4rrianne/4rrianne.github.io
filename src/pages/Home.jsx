@@ -19,9 +19,10 @@ function Home() {
   return (
     <div style={{ position: 'relative', zIndex: 1, textAlign: 'center', paddingTop: '1rem', pointerEvents: 'none' }}>
       <h1>Hi! I'm Arrianne.</h1>
-      <p>Click around to learn more about me.</p>
+      <p>Explore my portfolio to learn more about me.</p>
       <div className="nav-squares">
         <div className="nav-square" onClick={(e) => handleNavClick('/about', e)}>About</div>
+        <div className="nav-square" onClick={(e) => handleNavClick('/experience', e)}>Experience</div>
       </div>
     </div>
   );

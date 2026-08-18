@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import './App.css';
 import Experience from './pages/Experience';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/experience" element={<Experience />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

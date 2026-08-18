@@ -23,6 +23,7 @@ function Home() {
       <div className="nav-squares">
         <div className="nav-square" onClick={(e) => handleNavClick('/about', e)}>About</div>
         <div className="nav-square" onClick={(e) => handleNavClick('/experience', e)}>Experience</div>
+        <div className="nav-square" onClick={(e) => handleNavClick('/contact', e)}>Contact</div>
       </div>
     </div>
   );

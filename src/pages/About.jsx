@@ -55,7 +55,12 @@ function About() {
           where I aim to contribute to research and advance future technology. At the same time, I am open 
           to exploring other areas of computer science such as artificial intelligence, robotics, web development, 
           and more.
+          <br></br>
+          <br></br>
+          In my free time, I love to play tennis and try new recipes. I also love traveling. Currently, I am continuing to learn Italian after my summer abroad there and hope to reach proficiency in the future. I also have a cat named Guppy. 
         </p>
+
+    
 
         </div>
 

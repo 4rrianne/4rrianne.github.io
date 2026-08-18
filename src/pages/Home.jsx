@@ -17,7 +17,7 @@ function Home() {
   };
 
   return (
-    <div style={{ position: 'relative', zIndex: 1, textAlign: 'center', paddingTop: '1rem', pointerEvents: 'none' }}>
+    <div style={{ position: 'relative', zIndex: 1, textAlign: 'center', paddingTop: '15vw', pointerEvents: 'none' }}>
       <h1>Hi! I'm Arrianne.</h1>
       <p>Explore my portfolio to learn more about me.</p>
       <div className="nav-squares">
